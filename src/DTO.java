@@ -6,12 +6,12 @@ public class DTO {
     public Integer angulo1;
     public Integer angulo2;
     public Integer angulo3;
-    public Integer longitud;
-    public Integer CA;
-    public Integer CO;
-    public Integer HIP;
+    public Double longitud;
+    public Double CA;
+    public Double CO;
+    public Double HIP;
 
-    public DTO(Integer q1, Integer q2, Integer q3, Integer q4, Integer angulo1, Integer angulo2, Integer longitud) {
+    public DTO(Integer q1, Integer q2, Integer q3, Integer q4, Integer angulo1, Integer angulo2, Double longitud) {
         Q1 = q1;
         Q2 = q2;
         Q3 = q3;
@@ -21,7 +21,7 @@ public class DTO {
         this.longitud = longitud;
     }
 
-    public DTO(Integer q1, Integer q2, Integer q3, Integer angulo1, Integer angulo2, Integer angulo3, Integer CA, Integer CO, Integer HIP) {
+    public DTO(Integer q1, Integer q2, Integer q3, Integer angulo1, Integer angulo2, Integer angulo3, Double CA, Double CO, Double HIP) {
         Q1 = q1;
         Q2 = q2;
         Q3 = q3;
