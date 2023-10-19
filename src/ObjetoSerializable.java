@@ -1,5 +1,5 @@
 import java.io.*;
-public class Serializable {
+public class ObjetoSerializable {
     public static void writeObjectToFile(Object obj, String fileName) throws IOException {
         FileOutputStream fileOut = new FileOutputStream(fileName);
         ObjectOutputStream objOut = new ObjectOutputStream(fileOut);
